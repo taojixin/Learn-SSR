@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.0.4",
+    "nuxt": "^3.3.2",
+    "unplugin-element-plus": "^0.7.0"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@pinia/nuxt": "^0.4.7",
+    "element-plus": "^2.3.1",
+    "pinia": "^2.0.33",
+    "unplugin-icons": "^0.16.0",
+    "unplugin-vue-components": "^0.24.1"
+  }
+}
